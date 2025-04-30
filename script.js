@@ -11,7 +11,7 @@ class Captcha {
         this.timeLeft = 120; // 2 minutos
         this.timerInterval = null;
         this.isVerified = false;
-        this.challengeTypes = ['text', 'emoji'];
+        this.challengeTypes = ['text'];
         this.currentChallengeType = this.getRandomChallengeType();
         
         this.initialize();
